@@ -1,0 +1,15 @@
+{
+  "actions": [], "creation": "2026-11-12 00:00:00", "doctype": "DocType", "editable_grid": 1,
+  "engine": "InnoDB",
+  "field_order": ["default_agent", "core_has_builtin_query_tools", "max_report_rows"],
+  "fields": [
+    {"description": "The agent a new conversation starts with. One active agent per conversation, switchable mid-thread with the switch recorded.", "fieldname": "default_agent", "fieldtype": "Data", "label": "Default Agent"},
+    {"default": "0", "description": "A statement of the product decision, not a switch: the core ships chat and file tools only, so a fresh install cannot answer business questions until this extension is installed.", "fieldname": "core_has_builtin_query_tools", "fieldtype": "Check", "label": "Core Has Built-in Query Tools"},
+    {"default": "1000", "description": "The most rows one report returns before the reader is told to narrow it.", "fieldname": "max_report_rows", "fieldtype": "Int", "label": "Max Report Rows"}
+  ],
+  "index_web_pages_for_search": 1, "issingle": 1, "links": [],
+  "modified": "2026-11-12 00:00:00", "modified_by": "Administrator",
+  "module": "AI Copilot MCP", "name": "AI Copilot MCP Settings", "owner": "Administrator",
+  "permissions": [{"create": 1, "delete": 1, "email": 1, "print": 1, "read": 1, "role": "System Manager", "share": 1, "write": 1}],
+  "sort_field": "modified", "sort_order": "DESC", "states": [], "track_changes": 1
+}
