@@ -352,4 +352,4 @@ TIERS = {
 #: ``without_writes_out_of_reach`` to extension specs as well as core ones.
 #: An earlier core would show a write tool to a caller who held no such right
 #: anywhere, which is the visibility rule broken.
-REQUIRES_CORE = ">=0.3.0,<0.4.0"
+REQUIRES_CORE = ">=0.4.0,<0.5.0"
