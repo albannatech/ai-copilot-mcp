@@ -7,6 +7,8 @@ and the app uses [semantic versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.0] — 2026-11-12
+
 ### Added
 
 **The flagship: the extension that makes a fresh install of the core useful.**
@@ -53,3 +55,4 @@ Eight tools, one agent, one doctype, no flow, and no HTTP client.
   file tools only, so a fresh install cannot answer business questions until
   this extension is installed. That is recorded rather than left to look like a
   bug.
+
